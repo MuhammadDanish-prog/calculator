@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <div id="mainDiv" class="container">
+        <div class="container">
+            <input id="result" class="out" type="text">
+        </div>
+        <div class="container">
+            <button type="button" class="btn btn-dark" onclick="clearResult()">C</button>
+        </div>
+        <div class="container">
+            <button type="button" class="btn btn-success" onclick="getNum('(')">(</button>
+            <button type="button" class="btn btn-success" onclick="getNum(')')">)</button>
+            <button type="button" class="btn btn-success" onclick="getNum('^')">^</button>
+            <button type="button" class="btn btn-success" onclick="getNum('%')">%</button>
+
+        </div>
+        <div class="container">
+            <button type="button" class="btn btn-success" onclick="getNum('7')">7</button>
+            <button type="button" class="btn btn-success" onclick="getNum('8')">8</button>
+            <button type="button" class="btn btn-success" onclick="getNum('9')">9</button>
+            <button type="button" class="btn btn-success" onclick="getNum('*')">x</button>
+
+        </div>
+        <div class="container">
+            <button type="button" class="btn btn-success" onclick="getNum('4')">4</button>
+            <button type="button" class="btn btn-success" onclick="getNum('5')">5</button>
+            <button type="button" class="btn btn-success" onclick="getNum('6')">6</button>
+            <button type="button" class="btn btn-success" onclick="getNum('-')">-</button>
+        </div>
+        <div class="container">
+            <button type="button" class="btn btn-success" onclick="getNum('1')">1</button>
+            <button type="button" class="btn btn-success" onclick="getNum('2')">2</button>
+            <button type="button" class="btn btn-success" onclick="getNum('3')">3</button>
+            <button type="button" class="btn btn-success" onclick="getNum('+')">+</button>
+
+        </div>
+        <div class="container">
+            <button type="button" class="btn btn-success" onclick="getNum('0')">0</button>
+            <button type="button" class="btn btn-success" onclick="getresult()">=</button>
+            <button type="button" class="btn btn-success" onclick="getNum('.')">.</button>
+            <button type="button" class="btn btn-success" onclick="getNum('/')">/</button>
+
+        </div>
+
+
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

@@ -1,0 +1,37 @@
+#mainDiv{
+width:29% ;
+border: 2px solid red;
+margin: 0 auto;
+background-color:gray ;
+padding:10px ;
+margin-top:20px ;
+}
+.btn-dark{
+    width:98% !important;
+    margin-top:10px !important;
+}
+.out{
+    width:98% ;
+    margin-top:10px ;
+    background-color: wheat;
+    
+
+}
+.out:hover{
+    background-color: whitesmoke;
+}
+.btn{
+    width:78px ;
+    margin-top:10px ;
+
+}
+.last{
+    width:36.5% ;
+    margin-top:10px ;
+
+}
+#divide{
+    width:24.4% ;
+    margin-top:10px ;
+
+}
